@@ -25,12 +25,6 @@ def unique_emails():
         email_response.uniqueemails = email_utility.count_unique_emails(email_request.emails)
         return email_response.json()
 
-@app.route('/')
-def hello():
-    email_request = EmailRequest()
-    email_request.emails = [ 'dheeraj.326@gmail.com', 'chichumail1@gmail.com' ]
-    return email_request.json()
-
 if __name__ == '__main__':
     app.run()
 
