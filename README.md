@@ -13,7 +13,7 @@ curl --location --request POST 'http://127.0.0.1:5000/uniqueemails' \
 }'
 ```
 ## How do I run this locally?
-1. This application was developed using Python 3.8 and hence the same version is recommended although any version of Python 3 should work.
+1. This application was developed using Python 3.8 and hence the same version is recommended although any version of Python 3 should work fine.
 2. Go to the root path of the project
 3. Run `pip install -r requirements.txt`
 4. `cd src`
